@@ -1,18 +1,18 @@
 #include <iostream>
-
 using namespace std;
 
 int main()
 {
-    int t, n, i, a[1001];
+    int t;
     cin >> t;
     while (t--)
     {
-        cin >> n;
-        for (i = 1; i < n; i++)
+        int n, s, i, a[101];
+        cin >> n >> s;
+        for (i = 1; i <= n; i++)
             cin >> a[i];
 
-        cout << missingValueInArray(a, n) << endl;
+        getIndex(a, n, s);
     }
 
     return 0;
