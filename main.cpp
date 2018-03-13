@@ -1,4 +1,5 @@
 #include <iostream>
+
 using namespace std;
 
 int main()
@@ -7,12 +8,13 @@ int main()
     cin >> t;
     while (t--)
     {
-        int n, s, i, a[101];
-        cin >> n >> s;
-        for (i = 1; i <= n; i++)
+        int n, i, a[101];
+        cin >> n;
+        for (i = 0; i < n; i++)
             cin >> a[i];
 
-        getIndex(a, n, s);
+        //sort012(a, n);
+        cout << endl;
     }
 
     return 0;
