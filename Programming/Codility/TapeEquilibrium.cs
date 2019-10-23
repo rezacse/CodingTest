@@ -4,7 +4,7 @@ using System;
 class TapeEquilibrium
 {
 
-    int Solution(int[] A)
+    public int Solution(int[] A)
     {
         int s = 0;
         for (int i = 0; i < A.Length; i++)

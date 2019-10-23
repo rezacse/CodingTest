@@ -1,7 +1,7 @@
 class PermCheck
 {
     //100%
-    int Solution(int[] A)
+    public int Solution(int[] A)
     {
         int v, l = A.Length;
         var b = new bool[l];

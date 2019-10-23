@@ -1,7 +1,7 @@
 
 class FrogRiverOne
 {
-    int Solution(int X, int[] A)
+    public int Solution(int X, int[] A)
     {
         int c = 0, v;
         var b = new bool[A.Length];

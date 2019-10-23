@@ -1,6 +1,6 @@
 class MinAvgTwoSlice
 {
-    int Solution(int[] A)
+    public int Solution(int[] A)
     {
         float s2, s3, m = 10001;
         int l = A.Length - 2, mi = 0;

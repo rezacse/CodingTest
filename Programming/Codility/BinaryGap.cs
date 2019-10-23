@@ -1,6 +1,6 @@
 class BinaryGap
 {
-    int Solution(int n)
+    public int Solution(int n)
     {
         int lg = 0, gg = 0, pn = 0;
 

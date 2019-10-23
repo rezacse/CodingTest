@@ -1,7 +1,7 @@
 class MissingElm
 {
 
-    int missingElm(int[] A, int N)
+    public int missingElm(int[] A, int N)
     {
         int t = 0;
         for (int i = 0; i < N; i++)

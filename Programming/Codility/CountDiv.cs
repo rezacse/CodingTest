@@ -1,6 +1,6 @@
 class CountDiv
 {
-    int Solution(int A, int B, int K)
+    public int Solution(int A, int B, int K)
     {
         if (A == B) return A % K == 0 ? 1 : 0;
 

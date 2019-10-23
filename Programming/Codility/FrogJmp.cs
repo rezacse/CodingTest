@@ -1,6 +1,6 @@
 class FrogJmp
 {
-    int Solution(int X, int Y, int D)
+    public int Solution(int X, int Y, int D)
     {
         if (Y == X) return 0;
 

@@ -5,7 +5,7 @@ class PassingCar
     //for(int i=0;i<100000;i++) {
     //    a[i] = i%2;
     //}
-    int Solution(int[] A)
+    public int Solution(int[] A)
     {
 
         int l = 0, pz = 0, len = A.Length;

@@ -2,7 +2,7 @@
 class CyclicRotation
 {
 
-    int[] Solution(int[] A, int K)
+    public int[] Solution(int[] A, int K)
     {
 
         int l = A.Length;

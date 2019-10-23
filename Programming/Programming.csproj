@@ -45,10 +45,14 @@
   <ItemGroup>
     <Compile Include="Codility\BinaryGap.cs" />
     <Compile Include="Codility\CountDiv.cs" />
+    <Compile Include="Codility\CyclicRotation.cs" />
+    <Compile Include="Codility\Distinct.cs" />
     <Compile Include="Codility\FrogJmp.cs" />
+    <Compile Include="Codility\FrogRiverOne.cs" />
     <Compile Include="Codility\MaxIn3.cs" />
     <Compile Include="Codility\MaxProductOfThree.cs" />
     <Compile Include="Codility\MinAvgTwoSlice.cs" />
+    <Compile Include="Codility\Triagnle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -71,8 +75,6 @@
     <Content Include="Social\zigZagFashion.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Codility\cyclicRotation.cs" />
-    <Compile Include="Codility\frogRiverOne.cs" />
     <Compile Include="Codility\MissingElm.cs" />
     <Compile Include="Codility\MissingInteger.cs" />
     <Compile Include="Codility\PassingCar.cs" />

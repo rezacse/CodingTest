@@ -1,7 +1,7 @@
 
 class MissingInteger
 {
-    int Solution(int[] A)
+    public int Solution(int[] A)
     {
         int v, c = 0, l = A.Length;
         var b = new bool[l];

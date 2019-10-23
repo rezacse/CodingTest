@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace Programming
 {
@@ -7,28 +6,15 @@ namespace Programming
     {
         static void Main(string[] args)
         {
-            int[] A = { 1, 2, 3, 1 };
+            int[] A = { 10, 50, 5, 1 };
 
-            Console.WriteLine(Distinct(A));
+            var obj = new Triagnle();
+
+            Console.WriteLine(obj.Solution(A));
+
             Console.ReadKey();
         }
 
 
-        static int Distinct(int[] A)
-        {
-            int d = 0;
-            var dicts = new HashSet<int>();
-            foreach (var item in A)
-            {
-                if (!dicts.Contains(item))
-                {
-                    dicts.Add(item);
-                    d++;
-                }
-
-            }
-
-            return d;
-        }
     }
 }

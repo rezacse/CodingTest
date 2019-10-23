@@ -1,6 +1,6 @@
 class UnpairedNumber
 {
-    int Solution(int[] A)
+    public int Solution(int[] A)
     {
         int n = 0;
         int len = A.Length;

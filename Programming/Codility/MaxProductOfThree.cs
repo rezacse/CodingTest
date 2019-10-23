@@ -1,6 +1,6 @@
 class MaxProductOfThree
 {
-    int Solution(int[] A, int N)
+    public int Solution(int[] A, int N)
     {
         var b = new int[] { 1001, 1001, -1001, -1001, -1001 };
         for (int i = 0; i < N; i++)

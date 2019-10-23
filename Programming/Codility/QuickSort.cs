@@ -25,7 +25,7 @@ class QuickSort
     }
 
 
-    void Sort(int[] A, int low, int high)
+    public void Sort(int[] A, int low, int high)
     {
         while (low < high)
         {
