@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Programming.HackerRank;
+using System;
 
 namespace Programming
 {
@@ -6,11 +7,16 @@ namespace Programming
     {
         static void Main(string[] args)
         {
-            int[] A = { 10, 50, 5, 1 };
 
-            var obj = new Triagnle();
+            //var obj = new ArrayManipulation();
+            //var a = new int[3][];
+            //a[0] = new int[] { 1, 2, 100 };
+            //a[1] = new int[] { 2, 5, 100 };
+            //a[2] = new int[] { 3, 4, 100 };
+            var obj = new MinimumSwap();
 
-            Console.WriteLine(obj.Solution(A));
+            int[] a = { 7, 1, 3, 2, 4, 5, 6 };
+            Console.WriteLine(obj.Solution(a));
 
             Console.ReadKey();
         }

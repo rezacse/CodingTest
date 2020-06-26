@@ -44,15 +44,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Codility\BinaryGap.cs" />
+    <Compile Include="Codility\Bracket.cs" />
     <Compile Include="Codility\CountDiv.cs" />
     <Compile Include="Codility\CyclicRotation.cs" />
     <Compile Include="Codility\Distinct.cs" />
     <Compile Include="Codility\FrogJmp.cs" />
     <Compile Include="Codility\FrogRiverOne.cs" />
+    <Compile Include="Codility\LoadBalancer.cs" />
     <Compile Include="Codility\MaxIn3.cs" />
     <Compile Include="Codility\MaxProductOfThree.cs" />
     <Compile Include="Codility\MinAvgTwoSlice.cs" />
+    <Compile Include="Codility\Nesting.cs" />
     <Compile Include="Codility\Triagnle.cs" />
+    <Compile Include="HackerRank\ArrayManipulation.cs" />
+    <Compile Include="HackerRank\MinimumSwap.cs" />
+    <Compile Include="LeetCode\SingleNumber.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
