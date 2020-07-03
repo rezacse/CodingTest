@@ -58,7 +58,10 @@
     <Compile Include="Codility\Triagnle.cs" />
     <Compile Include="HackerRank\ArrayManipulation.cs" />
     <Compile Include="HackerRank\MinimumSwap.cs" />
+    <Compile Include="LeetCode\BestTimeToBuy.cs" />
     <Compile Include="LeetCode\HappyNumber.cs" />
+    <Compile Include="LeetCode\July\ArrangingCoins.cs" />
+    <Compile Include="LeetCode\July\PrisonCellsAfterNDays.cs" />
     <Compile Include="LeetCode\MaximumSubarray.cs" />
     <Compile Include="LeetCode\MoveZeros.cs" />
     <Compile Include="LeetCode\SingleNumber.cs" />
