@@ -60,8 +60,12 @@
     <Compile Include="HackerRank\MinimumSwap.cs" />
     <Compile Include="LeetCode\BestTimeToBuy.cs" />
     <Compile Include="LeetCode\HappyNumber.cs" />
+    <Compile Include="LeetCode\July\AddBinary.cs" />
     <Compile Include="LeetCode\July\ArrangingCoins.cs" />
+    <Compile Include="LeetCode\July\HammingDistance.cs" />
     <Compile Include="LeetCode\July\PrisonCellsAfterNDays.cs" />
+    <Compile Include="LeetCode\July\ReverseWord.cs" />
+    <Compile Include="LeetCode\July\UglyNumber2.cs" />
     <Compile Include="LeetCode\MaximumSubarray.cs" />
     <Compile Include="LeetCode\MoveZeros.cs" />
     <Compile Include="LeetCode\SingleNumber.cs" />
