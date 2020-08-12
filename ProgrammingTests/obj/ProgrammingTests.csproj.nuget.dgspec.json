@@ -73,12 +73,11 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
     "G:\\devResources\\_git\\CodingTest\\Programming\\Programming.csproj": {
-      "version": "1.0.0",
       "restore": {
         "projectUniqueName": "G:\\devResources\\_git\\CodingTest\\Programming\\Programming.csproj",
         "projectName": "Programming",
