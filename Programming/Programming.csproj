@@ -62,6 +62,8 @@
     <Compile Include="LeetCode\AugustPractics\TreeNode.cs" />
     <Compile Include="LeetCode\AugustPractics\UnivaluedBinaryTree.cs" />
     <Compile Include="LeetCode\BestTimeToBuy.cs" />
+    <Compile Include="LeetCode\DecemberPractics\AddTwoNumSolution.cs" />
+    <Compile Include="LeetCode\DecemberPractics\TwoSumSolution.cs" />
     <Compile Include="LeetCode\HappyNumber.cs" />
     <Compile Include="LeetCode\July\RemoveLinkedListElements.cs" />
     <Compile Include="LeetCode\July\AddBinary.cs" />
