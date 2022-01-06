@@ -1,9 +1,0 @@
-G:\devResources\_git\CodingTest\Practics\obj\Debug\netcoreapp3.1\Practics.csprojAssemblyReference.cache
-G:\devResources\_git\CodingTest\Practics\obj\Debug\netcoreapp3.1\Practics.csproj.CoreCompileInputs.cache
-G:\devResources\_git\CodingTest\Practics\obj\Debug\netcoreapp3.1\Practics.AssemblyInfoInputs.cache
-G:\devResources\_git\CodingTest\Practics\obj\Debug\netcoreapp3.1\Practics.AssemblyInfo.cs
-G:\devResources\_git\CodingTest\Practics\bin\Debug\netcoreapp3.1\Practics.deps.json
-G:\devResources\_git\CodingTest\Practics\bin\Debug\netcoreapp3.1\Practics.dll
-G:\devResources\_git\CodingTest\Practics\bin\Debug\netcoreapp3.1\Practics.pdb
-G:\devResources\_git\CodingTest\Practics\obj\Debug\netcoreapp3.1\Practics.dll
-G:\devResources\_git\CodingTest\Practics\obj\Debug\netcoreapp3.1\Practics.pdb
