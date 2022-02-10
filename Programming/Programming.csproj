@@ -58,6 +58,7 @@
     <Compile Include="Codility\Triagnle.cs" />
     <Compile Include="DicModel.cs" />
     <Compile Include="HackerRank\ArrayManipulation.cs" />
+    <Compile Include="HackerRank\CountingValleys.cs" />
     <Compile Include="HackerRank\MinimumSwap.cs" />
     <Compile Include="LeetCode\AugustPractics\BinaryTreeTilt.cs" />
     <Compile Include="LeetCode\AugustPractics\TreeNode.cs" />
