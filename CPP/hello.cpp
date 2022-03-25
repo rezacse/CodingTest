@@ -2,13 +2,18 @@
 #include <vector>
 using namespace std;
 
-int binarySearch(vector<int> v, int l, int h, int t) {
-    if (l <= h) {
+int binarySearch(vector<int> v, int t) {
+    int l = 0, h = v.size() - 1, i = -1;
+    while (l <= h) {
         int m = (l + h) / 2;
-        if (v[m] == t) return m;
-        if (t < v[m]) return binarySearch(v, l, m - 1, t);
-        else return binarySearch(v, m + 1, h, t);
+        if (v[m] == t) {
+            i = m;
+            break;
+        }
+        if (t < v[m]) h = m - 1;
+        else l = m + 1;
     }
+    return i;
 }
 
 int main()
@@ -26,7 +31,7 @@ int main()
     do
     {
         cin >> t;
-        cout << binarySearch(v, 0, v.size(), t);
+        cout << binarySearch(v, t);
         //print(v);
         cin >> tc;
     } while (t > 0);
