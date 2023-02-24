@@ -8,10 +8,11 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>Programming</RootNamespace>
     <AssemblyName>Programming</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -65,7 +66,6 @@
     <Compile Include="LeetCode\AugustPractics\UnivaluedBinaryTree.cs" />
     <Compile Include="LeetCode\BestTimeToBuy.cs" />
     <Compile Include="LeetCode\DecemberPractics\AddTwoNumSolution.cs" />
-    <Compile Include="LeetCode\DecemberPractics\TwoSumSolution.cs" />
     <Compile Include="LeetCode\HappyNumber.cs" />
     <Compile Include="LeetCode\July\RemoveLinkedListElements.cs" />
     <Compile Include="LeetCode\July\AddBinary.cs" />
@@ -79,6 +79,9 @@
     <Compile Include="LeetCode\MoveZeros.cs" />
     <Compile Include="LeetCode\OctoberPractics\TreeTraversalSolution.cs" />
     <Compile Include="LeetCode\SingleNumber.cs" />
+    <Compile Include="LeetCode\TopInterviews\LongestNoRepeatCharacterSubString.cs" />
+    <Compile Include="LeetCode\TopInterviews\RomanToInt.cs" />
+    <Compile Include="LeetCode\TopInterviews\TwoSumSolution.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

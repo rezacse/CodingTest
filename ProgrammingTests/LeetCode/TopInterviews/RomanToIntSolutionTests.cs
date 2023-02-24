@@ -1,6 +1,7 @@
 ﻿using NUnit.Framework;
+using Programming.LeetCode.TopInterviews;
 
-namespace Programming.LeetCode.DecemberPractics
+namespace ProgrammingTests.LeetCode.TopInterviews
 {
     [TestFixture]
     public class TwoSumSolutionTests

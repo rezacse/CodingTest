@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Programming.LeetCode.DecemberPractics
+namespace Programming.LeetCode.TopInterviews
 {
     public class TwoSumSolution
     {
@@ -14,10 +14,10 @@ namespace Programming.LeetCode.DecemberPractics
                 var num2 = target - nums[i];
                 if (hash.ContainsKey(num2))
                     return new int[] { i, hash[num2] };
-                hash.Add(nums[i], i);
+                if (!hash.ContainsKey(nums[i])) hash.Add(nums[i], i);
             }
 
-            throw new Exception("Not found!");
+            return new int[] { };
         }
     }
 }

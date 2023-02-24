@@ -2,18 +2,27 @@
 #include <vector>
 using namespace std;
 
-int binarySearch(vector<int> v, int t) {
-    int l = 0, h = v.size() - 1, i = -1;
-    while (l <= h) {
-        int m = (l + h) / 2;
-        if (v[m] == t) {
-            i = m;
-            break;
+// [-4,-1,0,3,10]
+vector<int> sortedSquares(vector<int>& nums) {
+    int e = nums.size() - 1, ns = 0, ne = 0, s = 0;
+    while (s < e) {
+        ns = nums[s] >= 0 ? nums[s] : -1 * nums[s];
+        ne = nums[e] >= 0 ? nums[e] : -1 * nums[e];
+        // if (ns == 0) s++;
+        if (ns == ne) s++;
+        else if (ns > ne) {
+            nums[e] = ns;
+            nums[s] = ne;
+            s = 0;
         }
-        if (t < v[m]) h = m - 1;
-        else l = m + 1;
+        else if (ne > ns) {
+            nums[e] = ne * ne;
+            e--;
+        }
     }
-    return i;
+    //nums[s] = nums[s]* nums[s];
+
+    return nums;
 }
 
 int main()
@@ -21,17 +30,18 @@ int main()
     int t, tc;
 
     vector<int> v;
-    v.push_back(1);
-    v.push_back(2);
-    v.push_back(3);
+    v.push_back(-5);
+    v.push_back(-5);
+    v.push_back(-1);
+    v.push_back(0);
     v.push_back(4);
-    v.push_back(5);
-    v.push_back(6);
+    v.push_back(4);
+    v.push_back(11);
 
     do
     {
         cin >> t;
-        cout << binarySearch(v, t);
+        sortedSquares(v);
         //print(v);
         cin >> tc;
     } while (t > 0);
