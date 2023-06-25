@@ -61,27 +61,30 @@
     <Compile Include="HackerRank\ArrayManipulation.cs" />
     <Compile Include="HackerRank\CountingValleys.cs" />
     <Compile Include="HackerRank\MinimumSwap.cs" />
-    <Compile Include="LeetCode\AugustPractics\BinaryTreeTilt.cs" />
-    <Compile Include="LeetCode\AugustPractics\TreeNode.cs" />
-    <Compile Include="LeetCode\AugustPractics\UnivaluedBinaryTree.cs" />
-    <Compile Include="LeetCode\BestTimeToBuy.cs" />
-    <Compile Include="LeetCode\DecemberPractics\AddTwoNumSolution.cs" />
-    <Compile Include="LeetCode\HappyNumber.cs" />
-    <Compile Include="LeetCode\July\RemoveLinkedListElements.cs" />
-    <Compile Include="LeetCode\July\AddBinary.cs" />
-    <Compile Include="LeetCode\July\ArrangingCoins.cs" />
-    <Compile Include="LeetCode\July\HammingDistance.cs" />
-    <Compile Include="LeetCode\July\PrisonCellsAfterNDays.cs" />
-    <Compile Include="LeetCode\July\ReverseWord.cs" />
-    <Compile Include="LeetCode\July\SingleNumber3.cs" />
-    <Compile Include="LeetCode\July\UglyNumber2.cs" />
-    <Compile Include="LeetCode\MaximumSubarray.cs" />
-    <Compile Include="LeetCode\MoveZeros.cs" />
-    <Compile Include="LeetCode\OctoberPractics\TreeTraversalSolution.cs" />
-    <Compile Include="LeetCode\SingleNumber.cs" />
-    <Compile Include="LeetCode\TopInterviews\LongestNoRepeatCharacterSubString.cs" />
-    <Compile Include="LeetCode\TopInterviews\RomanToInt.cs" />
-    <Compile Include="LeetCode\TopInterviews\TwoSumSolution.cs" />
+    <Compile Include="LeetCode\Completed\BinaryTreeTilt.cs" />
+    <Compile Include="LeetCode\Completed\TreeNode.cs" />
+    <Compile Include="LeetCode\Completed\UnivaluedBinaryTree.cs" />
+    <Compile Include="LeetCode\Completed\BestTimeToBuy.cs" />
+    <Compile Include="LeetCode\Completed\AddTwoNumSolution.cs" />
+    <Compile Include="LeetCode\Completed\HappyNumber.cs" />
+    <Compile Include="LeetCode\Completed\RemoveLinkedListElements.cs" />
+    <Compile Include="LeetCode\Completed\AddBinary.cs" />
+    <Compile Include="LeetCode\Completed\ArrangingCoins.cs" />
+    <Compile Include="LeetCode\Completed\HammingDistance.cs" />
+    <Compile Include="LeetCode\Completed\PrisonCellsAfterNDays.cs" />
+    <Compile Include="LeetCode\Completed\ReverseWord.cs" />
+    <Compile Include="LeetCode\Completed\SingleNumber3.cs" />
+    <Compile Include="LeetCode\Completed\UglyNumber2.cs" />
+    <Compile Include="LeetCode\Completed\MaximumSubarray.cs" />
+    <Compile Include="LeetCode\Completed\MoveZeros.cs" />
+    <Compile Include="LeetCode\Completed\TreeTraversalSolution.cs" />
+    <Compile Include="LeetCode\Completed\SingleNumber.cs" />
+    <Compile Include="LeetCode\Completed\LongestNoRepeatCharacterSubString.cs" />
+    <Compile Include="LeetCode\FindKthLargest.cs" />
+    <Compile Include="LeetCode\Completed\TopKFrequent.cs" />
+    <Compile Include="LeetCode\Completed\ReverseString.cs" />
+    <Compile Include="LeetCode\Completed\RomanToInt.cs" />
+    <Compile Include="LeetCode\Completed\TwoSumSolution.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -111,6 +114,9 @@
     <Compile Include="Codility\QuickSort.cs" />
     <Compile Include="Codility\TapeEquilibrium.cs" />
     <Compile Include="Codility\UnpairedNumber.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="LeetCode\InProgress\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

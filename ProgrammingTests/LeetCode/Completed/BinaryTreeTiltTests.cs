@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
 using Programming.LeetCode.AugustPractics;
 
-namespace ProgrammingTests.LeetCode.AugustPractics
+namespace ProgrammingTests.LeetCode.Completed
 {
     [TestFixture]
     public class BinaryTreeTiltTests

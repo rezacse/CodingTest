@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace Programming.LeetCode.DecemberPractics
+namespace ProgrammingTests.LeetCode.Completed
 {
     [TestFixture]
     public class AddTwoNumSolutionTests

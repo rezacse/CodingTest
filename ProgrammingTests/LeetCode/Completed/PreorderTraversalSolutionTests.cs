@@ -3,7 +3,7 @@ using Programming.LeetCode.AugustPractics;
 using Programming.LeetCode.OctoberPractics;
 using System.Collections.Generic;
 
-namespace ProgrammingTests.LeetCode.OctoberPractics
+namespace ProgrammingTests.LeetCode.Completed
 {
     [TestFixture]
     public class PreorderTraversalSolutionTests

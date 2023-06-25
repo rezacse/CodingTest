@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
 using Programming.LeetCode.July;
 
-namespace ProgrammingTests.LeetCode.July
+namespace ProgrammingTests.LeetCode.Completed
 {
     [TestFixture]
     public class RemoveLinkedListElementsTests

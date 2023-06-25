@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using Programming.LeetCode;
 
-namespace ProgrammingTests
+namespace ProgrammingTests.LeetCode.Completed
 {
     [TestFixture]
     public class HappyNumberTests
