@@ -61,6 +61,7 @@
     <Compile Include="HackerRank\ArrayManipulation.cs" />
     <Compile Include="HackerRank\CountingValleys.cs" />
     <Compile Include="HackerRank\MinimumSwap.cs" />
+    <Compile Include="LeetCode\ReverseVowels.cs" />
     <Compile Include="LeetCode\Completed\BinaryTreeTilt.cs" />
     <Compile Include="LeetCode\Completed\TreeNode.cs" />
     <Compile Include="LeetCode\Completed\UnivaluedBinaryTree.cs" />
@@ -80,7 +81,7 @@
     <Compile Include="LeetCode\Completed\TreeTraversalSolution.cs" />
     <Compile Include="LeetCode\Completed\SingleNumber.cs" />
     <Compile Include="LeetCode\Completed\LongestNoRepeatCharacterSubString.cs" />
-    <Compile Include="LeetCode\FindKthLargest.cs" />
+    <Compile Include="LeetCode\Completed\FindKthLargest.cs" />
     <Compile Include="LeetCode\Completed\TopKFrequent.cs" />
     <Compile Include="LeetCode\Completed\ReverseString.cs" />
     <Compile Include="LeetCode\Completed\RomanToInt.cs" />
