@@ -1,0 +1,15 @@
+E:\devResources\_git\CodingTest\ThreadingCSharp\bin\Debug\net8.0\ThreadingCSharp.exe
+E:\devResources\_git\CodingTest\ThreadingCSharp\bin\Debug\net8.0\ThreadingCSharp.deps.json
+E:\devResources\_git\CodingTest\ThreadingCSharp\bin\Debug\net8.0\ThreadingCSharp.runtimeconfig.json
+E:\devResources\_git\CodingTest\ThreadingCSharp\bin\Debug\net8.0\ThreadingCSharp.dll
+E:\devResources\_git\CodingTest\ThreadingCSharp\bin\Debug\net8.0\ThreadingCSharp.pdb
+E:\devResources\_git\CodingTest\ThreadingCSharp\obj\Debug\net8.0\ThreadingCSharp.GeneratedMSBuildEditorConfig.editorconfig
+E:\devResources\_git\CodingTest\ThreadingCSharp\obj\Debug\net8.0\ThreadingCSharp.AssemblyInfoInputs.cache
+E:\devResources\_git\CodingTest\ThreadingCSharp\obj\Debug\net8.0\ThreadingCSharp.AssemblyInfo.cs
+E:\devResources\_git\CodingTest\ThreadingCSharp\obj\Debug\net8.0\ThreadingCSharp.csproj.CoreCompileInputs.cache
+E:\devResources\_git\CodingTest\ThreadingCSharp\obj\Debug\net8.0\ThreadingCSharp.sourcelink.json
+E:\devResources\_git\CodingTest\ThreadingCSharp\obj\Debug\net8.0\ThreadingCSharp.dll
+E:\devResources\_git\CodingTest\ThreadingCSharp\obj\Debug\net8.0\refint\ThreadingCSharp.dll
+E:\devResources\_git\CodingTest\ThreadingCSharp\obj\Debug\net8.0\ThreadingCSharp.pdb
+E:\devResources\_git\CodingTest\ThreadingCSharp\obj\Debug\net8.0\ThreadingCSharp.genruntimeconfig.cache
+E:\devResources\_git\CodingTest\ThreadingCSharp\obj\Debug\net8.0\ref\ThreadingCSharp.dll
